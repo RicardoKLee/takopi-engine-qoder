@@ -5,13 +5,13 @@ Qoder CLI engine plugin for [Takopi](https://github.com/RicardoKLee/takopi).
 ## install
 
 ```sh
-uv pip install takopi-engine-qoder
+uv pip install "takopi-engine-qoder @ git+https://github.com/RicardoKLee/takopi-engine-qoder.git"
 ```
 
 or from this checkout:
 
 ```sh
-uv pip install -e /path/to/takopi-engine-qoder
+uv pip install -e .
 ```
 
 ## usage
